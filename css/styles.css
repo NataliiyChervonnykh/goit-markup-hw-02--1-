@@ -24,7 +24,7 @@
 body {
   font-family: var(--main-font);
   font-size: 14px;
-  letter-spacing: 00.03em;
+  letter-spacing: 0.03em;
   color: var(--primery-text-color);
   background-color: var(--additional-color);
 }
@@ -53,9 +53,6 @@ body {
 }
 
 /* header */
-.header {
-  background-color: var(--bg-header);
-}
 /* Logo header */
 
 .logo {
@@ -139,6 +136,7 @@ body {
 /* Features */
 
 .feature-list .title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -191,10 +189,6 @@ body {
 
 /* main for portfolio */
 
-.page {
-  background-color: var(--additional-color);
-}
-
 /* Filters */
 
 .btn-filter .btn {
@@ -202,8 +196,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  letter-spacing: 00.03em;
   text-align: center;
-  
+
   cursor: pointer;
 
   background-color: var(--light-bg-cl);
